@@ -60,5 +60,8 @@ jobs:
             - name: List Installed Dependencies
               run: composer show -D
 
+            - name: Fix PHP code style issues
+              run: composer lint
+
             - name: Execute tests
               run: composer test
