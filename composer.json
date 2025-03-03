@@ -27,6 +27,7 @@
         "illuminate/support": "^11.43"
     },
     "require-dev": {
+        "larastan/larastan": "^3.0",
         "laravel/pint": "^1.21",
         "orchestra/testbench": "^9.11",
         "peckphp/peck": "^0.1.2",
