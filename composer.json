@@ -45,6 +45,14 @@
             "pestphp/pest-plugin": true
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codelabmw\\LaravelPackageSkeleton\\PackageServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
     "scripts": {
         "lint": "pint",
         "refactor": "rector",
